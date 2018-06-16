@@ -1,0 +1,70 @@
+html
+  head
+    title Rosebud Impact Page
+    //- include assets/gtm-snippet.html
+    //- link(href="assets/style/home.styl" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet")
+    //- link(href='assets/style/lity.css' rel='stylesheet')
+    //- meta(name="viewport", content="width=device-width, initial-scale=1")
+    //- script(src='assets/scripts/video.js')
+    
+
+  body
+    //- Hero / Video Container
+    .o-section.page-home.u-text--center
+      .c-video
+        .c-video__container
+          video(width="100%", height="auto", autoplay, loop, muted, preload="auto", playsinline)
+            //- source(src="./assets/video/loveanybody-loop-dark.mp4", type="video/mp4")
+            | Your browser does not support the video tag.
+      .c-header
+        .c-header__brandmark
+          i.c-logo
+            //- include assets/img/logos/loveanybody.svg
+        h1.c-header__title(data-me="eiorijeo")
+          | Beauty with 
+          | no boundaries
+        p.c-header__copy Celebrating the beauty in every body.
+        a.c-video-play-btn(
+          href='https://player.vimeo.com/video/274139845?title=0&byline=0&portrait=0' 
+          data-lity
+        )
+          span.c-play-icon
+          //- include assets/img/play-btn.svg
+          span.c-video-play-btn__label Play Video
+    .o-section
+      h1 3% OF EVERY PURCHASE DIRECTLY BENEFITS HOMELESS YOUTH.
+      p Homelessness impacts young people from all walks of life. In Los Angeles, there are thousands of homeless youth sleeping on our streets on any given night. No two stories are the same – some grew up in foster care, some are pushed out of their homes after they come out as LGBTQ. Some youth face economic challenges, and for others it’s a daily struggle with mental health.
+      .figure-grid
+      p Having a place to call home and supportive people to trust can make all the difference and help youth leave homelessness behind. Jovenes recognizes the resiliency and ambition in these individuals, and it is unacceptable to let homelessness limit their dreams.
+    .o-section
+      h1 Who is Jovenes?
+      p A home and family for those without, Jovenes is a non-profit organization that helps young people end their cycle of homelessness. Located in Boyle Heights and serving communities throughout Southeast LA County,  Jovenes goes deep – focusing on not only a young person's need for housing, but also healthcare, education, employment, and trauma recovery.  Jovenes is creating innovative solutions for homeless community college students and youth in Los Angeles. Homelessness does not define our youth – it’s just an experience they go through. Jovenes’ housing and supportive services are tools that help youth achieve their goals and transform their lives. 
+    
+    //- two column section here with image on left and copy content on right.
+    .o-section
+      //- img
+      .o-content
+        h1 How We can help
+        p Salice is partnering with Jovenes to support homeless students by providing home starter kits and personalized support to youth on their journey out of homelessness.
+        p When Jovenes gives a homeless young person an apartment, they often come unfurnished and without necessary supplies. That’s why the home starter kits are crucial. They provide living essentials that help youth turn their new residences into homes. They include items such as cleaning and household supplies, plates and flatware, socks, towels, blanket and more. The starter kits are an amazing way to build trust and demonstrate that each youth served by Jovenes has a community that is rooting for their success.
+        p Along with providing housing, Jovenes provides individualized support to each student with compassionate case managers that often times become a student’s family.  Each case manager provides their youth with tutoring, counseling and additional emergency resources such as books, food, transportation, and more to help youth thrive physically, emotionally and academically.
+    
+    //- pink bar
+    .o-section.u-text-center
+      h1 OUR GOAL
+      p Our goal this year is to raise $15,000 to deliver home starter kits and provide personalized support to homeless youth in need. 3% of net sales from each Shop Salice Rose purchase goes towards funding these kits, so your purchase truly does make a difference in the life of a Jovenes student!
+    
+      .c-progress-bar
+    
+    .o-section
+      h1 WHAT DOESN’T BREAK YOU BECOMES PART OF YOUR STORY.
+      //- figure grid, each figure is generated via a mixin.
+      //- mixin figure 
+    
+    .o-section
+      h1 MOre ways to get involved
+      p Follow Jovenes on ther social channels to show your support.
+
+      .social-grid
+
